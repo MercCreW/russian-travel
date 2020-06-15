@@ -1,0 +1,14 @@
+.header__langs{
+    display: flex;
+    width: 62px;
+    justify-content: space-between;
+    grid-template-columns: repeat(2, 22px);
+    padding-left: 0px;
+    margin: 0px;
+}
+
+@media screen and (min-width: 768px){
+    .header__langs{
+        width: 77px;
+    }
+}

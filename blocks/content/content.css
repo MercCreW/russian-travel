@@ -1,0 +1,14 @@
+.content {
+    grid-area: main;
+    margin-bottom: 64px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: minmax(320px, 1fr);
+    grid-gap: 64px;
+    grid-template-areas: 'lead' 
+                         'intro'
+                         'photo-grid'
+                         'places'
+                         'cover';
+    min-width: 320px;
+}

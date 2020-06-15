@@ -1,0 +1,22 @@
+.place__link{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: white;
+}
+
+.place__link:hover {
+    text-decoration-line: underline;
+    opacity: 0.8;
+    transition: 0.3s linear; 
+    cursor: url("../../../images/link-cursor.svg"), pointer;
+}
+
+@media screen and (min-width: 768px){
+    .place__link{
+        font-size: 18px;
+        line-height: 22px;
+    }
+  }

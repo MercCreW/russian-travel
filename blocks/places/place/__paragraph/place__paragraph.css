@@ -1,0 +1,14 @@
+.place__paragraph{
+    min-width: 288px;
+    height: auto;
+    width: 90%;
+    margin: auto;
+    padding: 0px 0px 24px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+}
+
+.place__paragraph:last-child {
+    padding: 0px;
+}

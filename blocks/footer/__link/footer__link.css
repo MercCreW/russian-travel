@@ -1,0 +1,21 @@
+.footer__link{
+    display: inline-block;
+    margin-bottom: 32px;
+    font-size: 24px;
+    line-height: 24px;
+    text-decoration: none;
+    /* identical to box height, or 100% */
+    color: #FFFFFF;
+}
+
+.footer__link:hover{
+    cursor: url("../../../images/link-cursor.svg"), pointer;
+}
+@media screen and (min-width:768px){
+    .footer__link{
+        font-size: 16px;
+        line-height: 18px;
+        margin-bottom: 0px;
+        padding-right: 18px;
+    }
+}
