@@ -3,24 +3,24 @@
 @import url("./__subtitle/cover__subtitle.css");
 
 .cover {
-    padding: 32px 0 0px;
+    padding: 32px 0px 0px;
     margin: 0px auto;
 }
 
 @media screen and (min-width: 768px){
     .cover {
-        padding: 88px 0 0px;
+        padding: 88px 0px 0px;
     }
   }
   
   @media screen and (min-width: 1024px){
     .cover {
-      padding:92px 0 0px;
+      padding:92px 0px 0px;
     }
   }
 
 @media screen and (min-width: 1280px){
     .cover {
-        max-width: -webkit-calc(100% - 96px);
+      width: 76.875%;
     }
   }

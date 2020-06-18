@@ -13,10 +13,3 @@
     transition: 0.3s linear; 
     cursor: url("../../../images/link-cursor.svg"), pointer;
 }
-
-@media screen and (min-width: 768px){
-    .place__link{
-        font-size: 18px;
-        line-height: 22px;
-    }
-  }

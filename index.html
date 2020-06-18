@@ -10,8 +10,8 @@
         <header class="header">
                 <img class="header__logo" src="./images/header-logo.svg" alt="Логотип Россия">
                 <ul class="header__langs">
-                    <li class="header__lang-link header__lang-link_active">Ru</li>
-                    <li class="header__lang-link header__lang-link_active">En</li>
+                    <li class="header__lang-link header__lang-link_active"><a>Ru</a></li>
+                    <li class="header__lang-link"><a>En</a></li>
                 </ul>            
         </header>
     <main>
@@ -29,12 +29,12 @@
                 Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. 
                 Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.
             </p>
-            <ul class="intro__list list">
-                <li>Часовых поясов <span class="intro__list intro__list_style_normal">11</span></li>
-                <li>Объектов природного наследия ЮНЕСКО <span class="intro__list intro__list_style_normal">12</span></li>
-                <li>Объектов культурного наследия ЮНЕСКО <span class="intro__list intro__list_style_normal">16</span></li>
-                <li>Природных заповедников <span class="intro__list intro__list_style_normal">105</span></li>
-                <li>Аэропортов <span class="intro__list intro__list_style_normal">241</span></li>
+            <ul class="intro__list">
+                <li>Часовых поясов <span class="intro__style_normal">11</span></li>
+                <li>Объектов природного наследия ЮНЕСКО <span class="intro__style_normal">12</span></li>
+                <li>Объектов культурного наследия ЮНЕСКО <span class="intro__style_normal">16</span></li>
+                <li>Природных заповедников <span class="intro__style_normal">105</span></li>
+                <li>Аэропортов <span class="intro__style_normal">241</span></li>
             </ul>
         </section>
         <section class="photo-grid">
@@ -56,8 +56,8 @@
                 <h2 class="place__title">Куршская коса</h2>
                 <img src="./images/place-kosa.jpg" alt="Куршская коса" class="place__image">
                 <div class="place__website">
-                    <p class="place__url-heading">URL</p>
-                    <a class="place__link" href="#">park-kosa.ru</a>
+                    <p class="place__url-heading">url</p>
+                    <a class="place__link" href="park-kosa.ru" target="_blank">park-kosa.ru</a>
                 </div>
                 <div class="place__description">
                 <p class="place__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. 
@@ -70,7 +70,7 @@
                 <h2 class="place__title">Кольский</h2>
                 <img src="./images/place-kolsky.jpg" alt="Кольский" class="place__image">
                 <div class="place__website">
-                    <p class="place__url-heading">URL</p>
+                    <p class="place__url-heading">url</p>
                     <a class="place__link" href="#">National Geographic</a>
                 </div>
                 <div class="place__description">
@@ -84,7 +84,7 @@
                 <h2 class="place__title">Алтай</h2>
                 <img src="./images/place-altai.jpg" alt="Алтай" class="place__image">
                 <div class="place__website">
-                    <p class="place__url-heading">URL</p>
+                    <p class="place__url-heading">url</p>
                     <a class="place__link" href="#">Facebook</a>
                 </div>
                 <div class="place__description">
@@ -98,8 +98,8 @@
                 <h2 class="place__title">Зимний Байкал</h2>
                 <img src="./images/place-winter-baikal.jpg" alt="Зимний Байкал" class="place__image">
                 <div class="place__website">
-                    <p class="place__url-heading">URL</p>
-                    <a class="place__link" href="#">https://vk.com/baikalmile</a>
+                    <p class="place__url-heading">url</p>
+                    <a class="place__link" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
                 </div>
                 <div class="place__description">
                     <p class="place__paragraph">Всем известен Байкал как крупнейшее озеро в мире. Многие также знают, 
@@ -114,8 +114,8 @@
                 <h2 class="place__title">Карелия</h2>
                 <img src="./images/place-karelia.jpg" alt="Карелия" class="place__image">
                 <div class="place__website">
-                    <p class="place__url-heading">URL</p>
-                    <a class="place__link" href="#">https://vk.com/baikalmile</a>
+                    <p class="place__url-heading">url</p>
+                    <a class="place__link" href="http://vodlozero.ru/" target="_blank">http://vodlozero.ru/</a>
                 </div>
                 <div class="place__description">
                     <p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских национальных 
@@ -125,12 +125,13 @@
             </article>
         </section>
         <section class="cover">
-            <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__background">
+            <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="cover__background">
                 <h2 class="cover__title">До Байкала «на собаках»</h2>
                 <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на электричках.</p></a> 
         </section>
     </main>
     <footer class="footer">
+        <nav>
             <ul class="footer__links">
                 <li><a class="footer__link" href="https://yandex.ru/maps">Карты</a></li>
                 <li><a class="footer__link" href="https://yandex.ru/pogoda">Погода</a></li>
@@ -138,6 +139,7 @@
                 <li><a class="footer__link" href="https://calendar.yandex.ru">Календарь</a></li>
                 <li><a class="footer__link" href="https://travel.yandex.ru">Путешествия</a></li>
             </ul>
-        <p class="footer__copyright">© 2020. Впишите своё имя</p>
+        </nav>
+        <p class="footer__copyright">&copy; 2020. Впишите своё имя</p>
     </footer>
 </html>

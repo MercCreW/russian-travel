@@ -10,11 +10,6 @@
     padding-bottom: 24px;
 }
 
-.footer__link:hover {
-    opacity: 0.8;
-    transition: 0.3s linear;
-  }
-
 @media screen and (min-width: 768px){
     .footer{
         display: flex;
@@ -28,5 +23,12 @@
     .footer{
         max-width: -webkit-calc(100% - 96px);
         padding-top: 92px
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .footer{
+        margin: 0px auto;
+        width: 76.875%;
     }
 }

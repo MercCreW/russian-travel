@@ -18,7 +18,6 @@
 
 @media screen and (min-width: 1280px) {
     .lead {
-      margin:0 auto;
       width: 76.875%;
       padding-top: 56px;
     }

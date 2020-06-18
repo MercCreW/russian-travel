@@ -13,15 +13,12 @@
   @media screen and (min-width: 1024px){
     .places{
       padding-top: 92px;
-      margin:0 auto;
       max-width: -webkit-calc(100% - 96px);
     }
   }
 
   @media screen and (min-width: 1280px){
     .places{
-      padding-top: 92px;
-      margin:0 auto;
       width: 76.875%;
     }
   }

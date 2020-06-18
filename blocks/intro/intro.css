@@ -1,7 +1,7 @@
 @import url("./__title/intro__title.css");
 @import url("./__text/intro__text.css");
 @import url("./__list/intro__list.css");
-@import url("./__list/_style/intro__list_style_normal.css");
+@import url("./__style-normal/intro__style-normal.css");
 
 .intro{
     max-width: 90%;
@@ -23,7 +23,6 @@
   
   @media screen and (min-width: 1280px) {
       .intro {
-        margin:0 auto;
         width: 76.875%;
       }
     }
